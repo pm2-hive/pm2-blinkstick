@@ -1,0 +1,30 @@
+{
+  "name": "pm2-fronterr",
+  "version": "0.0.1",
+  "description": "PM2/Blinkstick interaction module",
+  "main": "app.js",
+  "dependencies": {
+    "blinkstick": "^1.1.3",
+    "body-parser": "^1.15.2",
+    "cors": "latest",
+    "express": "latest",
+    "pmx": "latest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pm2-hive/pm2-fronterr.git"
+  },
+  "config": {
+    "ip": "localhost",
+    "port": 4242
+  },
+  "apps": [
+    {
+      "merge_logs": true,
+      "max_memory_restart": "200M",
+      "script": "app.js"
+    }
+  ],
+  "author": "Keymetrics Inc.",
+  "license": "MIT"
+}
