@@ -7,7 +7,7 @@
     "blinkstick": "^1.1.3",
     "body-parser": "^1.15.2",
     "cors": "latest",
-    "express": "latest",
+    "request": "latest",
     "pmx": "latest"
   },
   "repository": {
