@@ -31,6 +31,7 @@ pmx.initModule({
   //Blinkstick setup
   var led = blinkstick.findFirst();
   led.turnOff();
+  //led.setMode(3);
 
   var blink_val = 1400;
 
